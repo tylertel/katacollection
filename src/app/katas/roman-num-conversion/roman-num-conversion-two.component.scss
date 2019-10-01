@@ -1,0 +1,38 @@
+ @import '../../global-vars.scss';
+ 
+ .converterContainer{
+     margin-top:50px;
+     margin-left:55px;
+ }
+
+ .romanNums{
+    //  position: absolute;
+     min-height:30px;
+     max-width: 300px;
+     width:80%;
+     font-size: 46px;
+     font-weight: bold; 
+     
+ }
+
+ .color-danger{
+      color:$color-danger
+ }
+
+ .romanDetail:nth-child(even){
+     background-color:lightgray;
+ } 
+ .romanDetails{
+     margin-left:5px;
+     margin-bottom:5px;
+    max-width: 150px;
+    }
+ .romanDetail{
+     padding-left:5px;
+     padding:3px;
+     margin:3px;
+ }
+
+ .extradetail{
+     padding:10px;
+ }

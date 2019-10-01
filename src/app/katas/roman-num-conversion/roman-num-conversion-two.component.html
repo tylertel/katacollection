@@ -1,0 +1,27 @@
+<div class="converterContainer">
+  <p [class]="getClass() + ' romanNums'">{{ output }}</p>
+  <form [formGroup]="formGroup">
+    <mat-form-field>
+      <input
+        autocomplete="disabled"
+        type="number"
+        formControlName="inputNumber"
+        matInput
+        placeholder="Number"
+      />
+    </mat-form-field>
+  </form>
+</div>
+
+<div class="romanDetails">
+  <h4>Roman Numerals</h4>
+  <div class="romanDetail">I = 1</div>
+  <div class="romanDetail">C = 100</div>
+  <div class="romanDetail">V = 5</div>
+  <div class="romanDetail">D = 500</div>
+  <div class="romanDetail">X = 10</div>
+  <div class="romanDetail">M = 1000</div>
+  <div class="romanDetail">L = 50</div>
+</div>
+
+<div class="extradetail">Roman numerals don't use four identical letters in a row. So, you'd never exceed XXX, or 10+10+10, for the "tens" placement. Since we can't use four identical numerals in a row, 40 would not be XXXX but, rather, XL. Remember, X is for 10 and L is for 50; and when the smaller numeral comes before the larger numeral, that quantity is subtracted. In other words, 40 is represented and translated as 10 subtracted from 50.</div>

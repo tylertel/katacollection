@@ -1,0 +1,16 @@
+<h2>Katas</h2>
+<mat-radio-group
+  class="selector radio-group"
+  aria-label="Select an option"
+  [(ngModel)]="selectedKata"
+>
+  <mat-radio-button class="radio-button" value="1">String Calculator</mat-radio-button>
+  <mat-radio-button class="radio-button" value="2">RXJS</mat-radio-button>
+  <mat-radio-button class="radio-button" value="3">Roman Numerals</mat-radio-button>
+  <!-- <mat-radio-button class="radio-button" value="4">Bowling</mat-radio-button> -->
+</mat-radio-group>
+
+<app-string-calculator *ngIf="selectedKata == 1"></app-string-calculator>
+<app-main *ngIf="selectedKata == 2"></app-main>
+<app-roman-num-conversion-two *ngIf="selectedKata == 3"></app-roman-num-conversion-two>
+<div *ngIf="selectedKata == 4"><h3>Coming Soon</h3></div>
