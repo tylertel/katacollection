@@ -14,6 +14,7 @@ import { RomanNumConversionTwoComponent } from './katas/roman-num-conversion/rom
 import { StringCalculatorComponent } from './katas/string-calculator/string-calculator.component';
 import { MainComponent } from './katas/rxjs/main/main.component';
 import { HelloBitDevWorldModule } from '@bit/brianhadley.displayutilities.hello-bit-dev-world';
+import { BowlingComponent } from './katas/bowling/bowling.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +23,8 @@ import { HelloBitDevWorldModule } from '@bit/brianhadley.displayutilities.hello-
     LevelThreeComponent,
     RomanNumConversionTwoComponent,
     StringCalculatorComponent,
-    MainComponent
+    MainComponent,
+    BowlingComponent
   ],
   imports: [
     BrowserModule,

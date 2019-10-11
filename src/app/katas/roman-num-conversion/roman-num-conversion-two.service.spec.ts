@@ -2,7 +2,7 @@ import { TestBed } from "@angular/core/testing";
 
 import { RomanNumConversionTwoService } from "./roman-num-conversion-two.service";
 
-describe("RomanNumConversionTwoService", () => {
+xdescribe("RomanNumConversionTwoService", () => {
   beforeEach(() => TestBed.configureTestingModule({}));
 
   it("should convert 1 to I", () => {

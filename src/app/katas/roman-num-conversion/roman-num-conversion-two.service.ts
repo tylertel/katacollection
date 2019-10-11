@@ -5,10 +5,9 @@ import { Injectable } from "@angular/core";
 })
 export class RomanNumConversionTwoService {
   constructor() {}
-  private _num: number;
 
   public convert(num: number): string {
-    //KATA ROMAN NUMERAL WORKSPACE
-    return "";
+    let rv: string = "";
+    return rv;
   }
 }
